@@ -14,5 +14,4 @@ public interface CourseDao {
 	Course getcourse(Integer course_id);
 	int getCourseElementIndex(Integer course_id);
 	List<String> getCourses();
-	List<Student> getStudents();
 }
